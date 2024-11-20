@@ -1,0 +1,1274 @@
+/* index 1 style sheet start......................... */
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.topBar{
+    background-image: url(/media/nav\ bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.custom {
+    background-image: url(/media/nav\ bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.custom-logo {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.custom-text-container {
+    padding-top: 20px;
+}
+
+.company-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.stock-info {
+    font-size: 12px;
+    color: #f8f9fa;
+    margin-bottom: 10px;
+}
+
+.stock-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.price-change {
+    color: #28a745;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.date {
+    font-size: 10px;
+    color: #d6d6d6;
+}
+
+.custom-border {
+    border-left: 2px solid #ffffff;
+}
+
+.custom-text-container p,
+.custom-text-container h3,
+.custom-text-container h5 {
+    margin: 0;
+}
+
+.custom-navbar {
+    background-color: transparent;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    color: black;
+}
+
+.custom-image-container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-image {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.sound-title {
+    font-size: 6rem;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 0 0 5px rgba(54, 171, 218, 0.8);
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.sound-text {
+    color: rgb(54, 171, 218);
+    font-size: 6rem;
+    text-shadow: 0 0 5px rgba(54, 171, 218, 0.6);
+    font-family: "Montserrat", sans-serif;
+    animation: pulse 1.5s infinite alternate;
+}
+
+.tech {
+    background: linear-gradient(to top, #10244e, #0678db);
+    box-shadow: 0 8px 24px rgba(24, 55, 94, 0.2);
+    padding: 40px;
+}
+
+.tech-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.investment-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.left-column {
+    padding: 0 35px;
+    background: linear-gradient(to top, #68bbff, #e8edf8);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-weight: 500;
+}
+
+.right-column {
+    background-color: white;
+    color: #18375e;
+}
+
+.left-column .head {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(15, 16, 88);
+}
+
+.subheading {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #ffffff;
+    background-color: #2ed3af;
+}
+
+.investment-section .description {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    padding-right: 5rem;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    color: rgb(13, 7, 95);
+}
+
+.highlight-title {
+    font-size: 24px;
+    color: #18375e;
+    font-weight: 700;
+}
+
+.highlight-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.highlights-list {
+    padding-left: 4rem;
+    list-style-type: none;
+}
+
+.highlight-item {
+    position: relative;
+}
+
+.highlight-item::before {
+    content: "\2022";
+    color: #18375e;
+    font-size: 32px;
+    position: absolute;
+    left: -25px;
+}
+
+.investment {
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to top, #10244e, #0678db);
+    box-shadow: 0 8px 24px rgba(24, 55, 94, 0.2);
+    transition: none;
+    cursor: pointer;
+}
+
+.revolutionizing-section {
+    background: linear-gradient(45deg, #25aadf, #31b0e2);
+    text-align: center;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 0 15px rgba(246, 252, 255, 0.986);
+
+}
+
+.feature-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-item {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.feature-content {
+    padding: 20px;
+    text-align: left;
+    color: #18375e;
+    flex: 1;
+}
+
+.feature-content-two {
+    padding: 15px;
+    text-align: left;
+    color: #18375e;
+    flex: 1;
+}
+
+.feature-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #18375e;
+    margin-bottom: 15px;
+}
+
+.feature-description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.feature-image-container {
+    width: 30%;
+    padding: 10px;
+}
+
+.feature-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.btn-container {
+    margin-top: 40px;
+}
+
+.btn-learn-more {
+    background: linear-gradient(to top, #10244e, #0678db);
+    color: white;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background: linear-gradient(to top, #10244e, #0678db);
+}
+
+.btn-learn-more:hover {
+    background-color: #00bfff;
+}
+
+.box-one .title {
+    color: #ffffff;
+    background-color: #2ed3af;
+    border-radius: 20px 20px 0 0;
+    font-size: 1rem;
+    padding: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.box-two .title {
+    color: #ffffff;
+    background-color: #2ed3af;
+    border-radius: 20px 20px 0 0;
+    font-size: 1rem;
+    padding: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.box-one img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box-two img {
+    width: 85%;
+    border-radius: 8px;
+}
+
+.footer-section {
+    color: white;
+    padding: 40px 20px
+}
+
+.footer-section {
+    background-image: url(media/Waveform-02.png);
+ background-color:#022174;    
+}
+
+.footer-logo {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+.footer-address{
+    font-size: 20px;
+}
+.footer-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.footer-list li {
+    margin-bottom: 8px;
+    color: white;
+}
+
+.footer-list li:hover {
+    color: #00bfff;
+    cursor: pointer;
+}
+
+.footer-bottom-content {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.box-icon i {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.box-icon i:hover {
+    color: #00bfff;
+}
+
+
+@media (max-width: 768px) {
+
+    .box-one{
+        padding: 0 !important;;
+    }
+    .box-two{
+        padding: 0 !important;
+    }
+   .col-md-6,
+    .col-md-3 {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .custom-logo {
+        max-width: 50%;
+    }
+
+    .custom-border {
+        border-left: none;
+    }
+
+    .investment-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left-column,
+    .right-column {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        font-size: 28px;
+    }
+
+    .subheading {
+        font-size: 25px;
+    }
+
+    .btn-investment {
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 27px;
+    }
+
+    .highlights-list {
+        padding: 21px;
+        list-style-type: none;
+    }
+
+    .feature-item {
+        width: 100%;
+        max-width: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-image-container {
+        width: 70%;
+        margin: 10px 0;
+    }
+
+    .feature-title {
+        font-size: 18px;
+    }
+
+    .feature-description {
+        font-size: 14px;
+    }
+
+    .btn-learn-more {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .investment-section .description {
+        text-align: center;
+        font-size: 14px;
+        line-height: 2rem;
+    }
+
+  
+
+    .sound-title {
+        font-size: 3rem;
+        letter-spacing: 3px;
+    }
+
+    .sound-text {
+        font-size: 3.5rem;
+    }
+    .box-one .title{
+        padding: 15px;
+        font-size: 14px;
+    }
+    .box-two .title{
+        padding: 15px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sound-title {
+        font-size: 5rem;
+        letter-spacing: 6px;
+    }
+
+    .sound-text {
+        font-size: 5rem;
+    }
+    .box-one .title{
+        padding: 15px;
+        font-size: 14px;
+    }
+    .box-two .title{
+        padding: 10px;
+        font-size: 15px;
+        margin-bottom: 5px;
+      
+    }
+}
+
+@media (max-width: 992px) {
+    .sound-title {
+        font-size: 2.5rem;
+        letter-spacing: 5px;
+    }
+
+    .sound-text {
+        font-size: 2.5rem;
+    }
+    .box-one .title{
+        padding: 15px;
+        font-size: 14px;
+    }
+    .box-two .title{
+
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sound-title {
+        font-size: 48px;
+        letter-spacing: 1.5px;
+    }
+
+    .sound-text {
+        font-size: 48px;
+    }
+    .box-one .title{
+        padding: 15px;
+        font-size: 14px;
+    }
+    .box-two .title{
+        padding: 10px;
+        font-size: 15px;
+       
+    }
+}
+
+/* index 1 style sheet end............. */
+
+/* index 2 start ............................. */
+
+body{
+    font-family:'Montserrat';
+}
+
+.heading {
+    background-image: url(/media/imgpsh.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.leader {
+    font-size: 50px;
+    color: white;
+}
+
+.one {
+    background-image: url(/media/img2.webp);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+        color: white;
+        font-size: 25px;
+        border-radius: 0.7rem;
+        padding: 0.6rem 4rem;
+        box-shadow:
+        rgba(0, 0, 255, 0.25) 0px 54px 55px,
+        rgba(0, 0, 255, 0.12) 0px -12px 30px,
+        rgba(0, 0, 255, 0.12) 0px 4px 6px,
+        rgba(0, 0, 255, 0.17) 0px 12px 13px,
+        rgba(0, 0, 255, 0.09) 0px -3px 5px;
+    }   
+}
+
+.two {
+    background-image: url(/media/images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.two h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.two p {
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+
+
+
+.first div{
+        box-shadow:
+        rgba(64, 64, 82, 0.25) 0px 8px 10px,
+        rgba(64, 64, 82, 0.25) 0px 8px 10px,
+        rgba(64, 64, 82, 0.25) 0px 8px 10px,
+         rgba(64, 64, 82, 0.25) 0px 8px 10px, 
+}
+.first div div{
+
+    div{
+        width: 40rem;
+    }
+}
+@media (max-width:768px){
+    .first div div{
+
+        div{
+            width: 20rem;
+            font-size: 1.4rem;
+        }
+}
+}
+/* index 2 end............... */
+
+/* index 3 style sheet............ */
+
+body {
+    font-family: 'Montserrat';
+}
+
+
+.content-header {
+    font-size: 3.3rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), 0 0 25px rgba(54, 171, 218, 0.8);
+    color: #fff;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.left-column {
+    background: linear-gradient(to top, #10244e, #0678db);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.company-info-section {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.company-list {
+    list-style-type: none;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #ffffff;
+}
+
+.company-list li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+}
+
+.company-list li::before {
+    content: '\2022';
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 0;
+}
+
+.company-info-section .company-title-one {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #18375e;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 30px 0 0 4rem;
+}
+
+.company-info-section .company-title {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #2ed3af;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+
+
+.table td {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.detail-heading {
+    font-weight: bold;
+    color: #18375e;
+}
+
+.detail-value {
+    color: #333;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 768px) {
+
+  
+
+    .table th,
+    .table td {
+        padding: 8px;
+        font-size: 0.875rem;
+    }
+
+    .hero-price-container {
+        padding-left: 14rem;
+    }
+
+    .content-header {
+        font-size: 1rem;
+    }
+
+    .company-title {
+        font-size: 1.25rem;
+    }
+
+    .company-list li {
+        font-size: 0.875rem;
+    }
+
+    .table {
+        font-size: 0.875rem;
+        width: 100%;
+    }
+
+    .detail-heading {
+        font-size: 1rem;
+    }
+
+    .detail-value {
+        font-size: 0.875rem;
+    }
+
+  
+}
+
+@media (max-width: 1024px) {
+    .content-header {
+        font-size: 2.25rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .content-header {
+        font-size: 16px
+    }
+
+    .hero-section {
+        height: auto;
+    }
+
+    .company-info-section .company-title-one {
+        font-size: 1.5rem;
+        padding-left: 30px;
+    }
+}
+
+
+/* index 3 style sheet end................. */
+
+/* index 4 style sheet start.......... */
+
+body{
+    font-family:'Montserrat';
+}
+.heading {
+    background-image: url(/media/imgpsh.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.leader {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    @media  screen and (max-width:768px) {
+        font-size: 20px;
+    }
+    
+}
+
+
+.contact-container{
+background-color: #0f66c4;
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-info h3{
+font-size: 30px;
+}
+.contact-info p{
+    font-size: 20px;
+    }
+
+
+.box {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(151, 219, 151);
+    max-width: 300px;
+        margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.submit-btn {
+    background-color: rgb(0, 0, 59);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color:  rgb(31, 31, 131);
+}
+
+.submit.pt-3 {
+    padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .box {
+        padding: 15px;
+        width: 100%;;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-md-6 {
+        width: 100%;
+    }
+  }
+
+
+
+  
+
+.contact-container{
+    background: linear-gradient(to top, #001a52, #002b50);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.contact-header h1{
+    font-size:20px;
+    text-align: center;
+    color: white;
+    font-size:50px;
+    text-align: center;
+    font-weight: 400;
+}
+.get{
+    font-size: 50px;
+    
+    color: white;
+    font-weight: 600;
+    @media  screen and (max-width:768px) {
+        font-size: 20px;
+    }
+    
+}
+.icon-container {
+    margin-left: 200px;
+    justify-content: center;
+   }
+
+
+
+.contact-text {
+    margin-left: 20px;
+}
+
+.call-us-heading{
+    margin-left: 20px;
+}
+.office-heading {
+    margin-left: 20px;
+}
+.call-us-number{
+    margin-left: 20px;
+} 
+.office-address{
+    margin-left: 20px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 8px 10px rgb(151, 219, 151);
+    border-radius: 50%;
+    background-color: #10244e;
+  
+  }
+ 
+  .icon-container i {
+    font-size: 5rem; 
+    color: #007bff; 
+  }
+ 
+.contact-info {
+    padding: 20px;
+}
+
+.icon-container i {
+    font-size: 2rem; 
+}
+
+.contact-text {
+    font-size: 1rem; 
+}
+
+.office-heading, .call-us-heading {
+    font-size: 1.25rem;
+}
+
+.office-address, .call-us-number {
+    font-size: 1rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .contact-info {
+        padding: 15px;
+    }
+
+    .icon-container i {
+        font-size: 1.5rem; 
+    }
+
+    .contact-text {
+        font-size: 0.95rem; 
+    }
+
+    .office-heading, .call-us-heading {
+        font-size: 1.1rem;
+    }
+
+    .office-address, .call-us-number {
+        font-size: 0.95rem;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .contact-info {
+        padding: 10px;
+    }
+
+    .icon-container i {
+        font-size: 1.2rem;
+    }
+
+    .contact-text {
+        font-size: 0.9rem; 
+    }
+
+    .office-heading, .call-us-heading {
+        font-size: 1rem;
+    }
+
+    .office-address, .call-us-number {
+        font-size: 0.9rem;
+    }
+
+  
+    .contact-info .row {
+        display: block;
+    }
+
+    .contact-info .d-flex {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    .ml-3 {
+        margin-left: 0; 
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .contact-info {
+        padding: 5px;
+    }
+
+    .icon-container i {
+        font-size: 1rem; 
+    }
+
+    .contact-text {
+        font-size: 0.85rem;
+    }
+
+    .office-heading, .call-us-heading {
+        font-size: 0.9rem;
+    }
+
+    .office-address, .call-us-number {
+        font-size: 0.85rem;
+    }
+}
+ 
+/* index 4 style sheet end.......... */
+
+
+/* index 5 style sheet start.......... */
+
+body{
+    font-family:'Montserrat';
+  }
+  .heading {
+    background-image: url(/media/imgpsh.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .leader {
+    font-size: 50px;
+    color: white;
+  }
+  
+ 
+  
+  .leader h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+   
+  }
+  
+  .leader {
+    color: white;
+  }
+  .leader h4{
+    color: white;
+    background-color: rgb(35, 35, 68);
+    text-align: center;
+   
+   
+  }
+  .all p{
+    font-size: 25px;
+    font-weight: 400;
+  }
+  
+  .leader-info {
+    padding: 15px;
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.5;
+    border-radius: 5px;
+  }
+  
+  .all{
+    background-color: #09418f;
+  }
+  .all h1{
+    text-shadow:50px 50px 50px  white,green ;
+  }
+  .class {
+    background-color: lavender;
+    border: 2px solid white;
+    border-radius: 30px;
+  }
+  
+  .class-two {
+    background-color: lavender;
+    border: 2px solid white;
+  }
+  
+  .class-three {
+    background-color: lavender;
+    border: 2px solid white;
+    border-radius: 20px;
+  }
+  
+  .class-four{
+    background-color: lavender;
+    border: 2px solid white;
+    border-radius: 20px;
+  }
+  
+  .leader-row .col-md-2 img {
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .leader-row {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .leader-row .col-md-2 {
+      margin-bottom: 10px;
+    }
+  
+    .leader-info {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  
+ 
+  .card {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4); 
+    border-radius: 30px;
+  }
+  .card-body h4{
+    color: white;
+    background-color: rgb(35, 35, 68);
+    text-align: center;
+  }
+
+  
+/* index 5 style sheet end.......... */
